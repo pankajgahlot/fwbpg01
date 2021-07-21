@@ -1,0 +1,14 @@
+package ExtentListerners;
+
+import java.util.Date;
+
+import org.testng.ITestListener;
+
+//import org.testng.ITestListener;
+
+public class ExtentListner implements ITestListener{
+	
+	Date d = new date();
+	String fileName = "Extent_"+d
+
+}

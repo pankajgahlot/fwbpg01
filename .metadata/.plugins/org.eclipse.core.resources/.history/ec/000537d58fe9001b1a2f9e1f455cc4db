@@ -1,0 +1,17 @@
+package com.fwbpg01.testCondition001;
+
+import org.testng.annotations.Test;
+
+public class test002 {
+	
+	@Test
+	public void Test002A() {
+		
+	}
+	
+	@Test
+	public void Test002B() {
+		
+	}
+
+}

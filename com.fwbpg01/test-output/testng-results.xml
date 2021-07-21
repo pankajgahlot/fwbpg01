@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.fwbpg01" duration-ms="138" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+    <groups>
+    </groups>
+    <test name="TestCondition001" duration-ms="133" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+      <class name="com.fwbpg01.testCondition001.test002">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.fwbpg01.testCondition001.test002@5e4c8041]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test002A()[pri:0, instance:com.fwbpg01.testCondition001.test002@5e4c8041]" name="Test002A" duration-ms="7" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test002A -->
+        <test-method status="PASS" signature="Test002B()[pri:0, instance:com.fwbpg01.testCondition001.test002@5e4c8041]" name="Test002B" duration-ms="3" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test002B -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.fwbpg01.testCondition001.test002@5e4c8041]" name="AfterTest" is-config="true" duration-ms="1" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.fwbpg01.testCondition001.test002 -->
+      <class name="com.fwbpg01.testCondition001.test001">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.fwbpg01.testCondition001.test001@7c417213]" name="BeforeTest" is-config="true" duration-ms="12" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test001A()[pri:0, instance:com.fwbpg01.testCondition001.test001@7c417213]" name="Test001A" duration-ms="14" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001A -->
+        <test-method status="PASS" signature="Test001B()[pri:0, instance:com.fwbpg01.testCondition001.test001@7c417213]" name="Test001B" duration-ms="1" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001B -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.fwbpg01.testCondition001.test001@7c417213]" name="AfterTest" is-config="true" duration-ms="1" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.fwbpg01.testCondition001.test001 -->
+    </test> <!-- TestCondition001 -->
+    <test name="TestCondition002" duration-ms="138" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+      <class name="com.fwbpg01.testCondition002.test102">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.fwbpg01.testCondition002.test102@4fe767f3]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test102A()[pri:0, instance:com.fwbpg01.testCondition002.test102@4fe767f3]" name="Test102A" duration-ms="3" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test102A -->
+        <test-method status="PASS" signature="Test102B()[pri:0, instance:com.fwbpg01.testCondition002.test102@4fe767f3]" name="Test102B" duration-ms="5" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test102B -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.fwbpg01.testCondition002.test102@4fe767f3]" name="AfterTest" is-config="true" duration-ms="1" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.fwbpg01.testCondition002.test102 -->
+      <class name="com.fwbpg01.testCondition002.test101">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.fwbpg01.testCondition002.test101@43ee72e6]" name="BeforeTest" is-config="true" duration-ms="12" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Test101A()[pri:0, instance:com.fwbpg01.testCondition002.test101@43ee72e6]" name="Test101A" duration-ms="14" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test101A -->
+        <test-method status="PASS" signature="Test101B()[pri:0, instance:com.fwbpg01.testCondition002.test101@43ee72e6]" name="Test101B" duration-ms="3" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test101B -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.fwbpg01.testCondition002.test101@43ee72e6]" name="AfterTest" is-config="true" duration-ms="1" started-at="2021-07-21T14:27:49 IST" finished-at="2021-07-21T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.fwbpg01.testCondition002.test101 -->
+    </test> <!-- TestCondition002 -->
+  </suite> <!-- com.fwbpg01 -->
+</testng-results>

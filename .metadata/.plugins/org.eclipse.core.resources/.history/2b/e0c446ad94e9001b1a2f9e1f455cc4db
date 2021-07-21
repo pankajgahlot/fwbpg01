@@ -1,0 +1,12 @@
+
+
+public class ExtentReporter {
+	
+	
+	public ExtentHtmlReporter;
+	public ExtentReport;
+	public ExtentTest;
+	
+	
+
+}
