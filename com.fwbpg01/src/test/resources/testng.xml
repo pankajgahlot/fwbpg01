@@ -8,19 +8,27 @@
 <listener class-name="ExtentListerners.ExtentListner"/>
 </listeners>
 
-  <test  name="TestCondition001">
+ <!--  <test  name="TestCondition001">
     <classes>
       <class name="com.fwbpg01.testCondition001.test001"/>
        <class name="com.fwbpg01.testCondition001.test002"/>
     </classes>
     
-  </test> <!-- Test -->
+  </test> Test
   
   <test  name="TestCondition002">
     <classes>
       <class name="com.fwbpg01.testCondition002.test101"/>
       <class name="com.fwbpg01.testCondition002.test102"/>
     </classes>
+  </test> Test -->
+  
+  <test  name="SanityTest">
+    <classes>
+      <class name="com.fwbpg01.sanity.sanityTest"/>
+      
+    </classes>
+    
   </test> <!-- Test -->
   
 </suite> <!-- Suite -->

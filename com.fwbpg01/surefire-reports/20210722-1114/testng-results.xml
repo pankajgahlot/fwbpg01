@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.fwbpg01" duration-ms="9806" started-at="2021-07-22T16:45:45 IST" finished-at="2021-07-22T16:45:55 IST">
+    <groups>
+    </groups>
+    <test name="SanityTest" duration-ms="9806" started-at="2021-07-22T16:45:45 IST" finished-at="2021-07-22T16:45:55 IST">
+      <class name="com.fwbpg01.sanity.sanityTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.fwbpg01.sanity.sanityTest@6591f517]" name="setup" is-config="true" duration-ms="12" started-at="2021-07-22T16:45:45 IST" finished-at="2021-07-22T16:45:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SanityTC001()[pri:0, instance:com.fwbpg01.sanity.sanityTest@6591f517]" name="SanityTC001" duration-ms="8982" started-at="2021-07-22T16:45:45 IST" finished-at="2021-07-22T16:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SanityTC001 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.fwbpg01.sanity.sanityTest@6591f517]" name="AfterMethod" is-config="true" duration-ms="732" started-at="2021-07-22T16:45:54 IST" finished-at="2021-07-22T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- com.fwbpg01.sanity.sanityTest -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- com.fwbpg01 -->
+</testng-results>

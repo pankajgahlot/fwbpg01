@@ -3,3 +3,4 @@ com\fwbpg01\testCondition001\test001.class
 utilities\ExtentReport.class
 com\fwbpg01\testCondition001\test002.class
 com\fwbpg01\testCondition002\test101.class
+com\fwbpg01\sanity\sanityTest.class
