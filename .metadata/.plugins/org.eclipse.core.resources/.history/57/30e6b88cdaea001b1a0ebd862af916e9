@@ -1,10 +1,5 @@
 package base;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,19 +9,11 @@ import pageobjects.LoginPage;
 public class SuiteBase {
 	
 	public  LoginPage LPg = new LoginPage();
-	public Properties prop;	
+	
 	InheritableThreadLocal<WebDriver> driver = new InheritableThreadLocal<WebDriver>();
 	
 	public WebDriver getDriver() {
 		return driver.get();
-	}
-	
-	public void init() throws IOException {
-		System.out.println("Call init");
-		FileInputStream fs= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\sanity.properties");
-		prop = new Properties();
-		prop.load(fs);
-		System.out.println("After init");
 	}
 
 	public void loadBrowser() {

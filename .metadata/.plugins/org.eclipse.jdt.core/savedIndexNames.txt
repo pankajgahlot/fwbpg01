@@ -38,7 +38,6 @@ INDEX VERSION 1.131+E:\Study\Frameworks\Selenium\.metadata\.plugins\org.eclipse.
 3264106029.index
 1145965092.index
 3778645487.index
-1596081098.index
 495217312.index
 2981200259.index
 384526145.index

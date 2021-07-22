@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6908" started-at="2021-07-22T16:02:08 IST" finished-at="2021-07-22T16:02:15 IST">
+  <suite name="Default suite" duration-ms="36843" started-at="2021-07-22T16:20:01 IST" finished-at="2021-07-22T16:20:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6908" started-at="2021-07-22T16:02:08 IST" finished-at="2021-07-22T16:02:15 IST">
+    <test name="Default test" duration-ms="36843" started-at="2021-07-22T16:20:01 IST" finished-at="2021-07-22T16:20:38 IST">
       <class name="sanityTest">
-        <test-method status="PASS" signature="SanityTC001()[pri:0, instance:sanityTest@670b40af]" name="SanityTC001" duration-ms="6192" started-at="2021-07-22T16:02:08 IST" finished-at="2021-07-22T16:02:14 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sanityTest@5fbdfdcf]" name="setup" is-config="true" duration-ms="13" started-at="2021-07-22T16:20:01 IST" finished-at="2021-07-22T16:20:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SanityTC001()[pri:0, instance:sanityTest@5fbdfdcf]" name="SanityTC001" duration-ms="36095" started-at="2021-07-22T16:20:01 IST" finished-at="2021-07-22T16:20:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SanityTC001 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:sanityTest@670b40af]" name="AfterMethod" is-config="true" duration-ms="654" started-at="2021-07-22T16:02:14 IST" finished-at="2021-07-22T16:02:15 IST">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:sanityTest@5fbdfdcf]" name="AfterMethod" is-config="true" duration-ms="668" started-at="2021-07-22T16:20:37 IST" finished-at="2021-07-22T16:20:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
