@@ -1,0 +1,17 @@
+import org.testng.annotations.Test;
+
+import base.SuiteBase;
+
+public class sanityTest extends SuiteBase{
+	
+	
+	@Test
+	public void SanityTC001() {
+		loadBrowser();
+		
+		
+		
+		
+	}
+
+}

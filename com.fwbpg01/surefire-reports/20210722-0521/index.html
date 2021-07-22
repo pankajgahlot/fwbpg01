@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com_fwbpg01">
+              <span class="suite-name border-passed">com.fwbpg01</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com_fwbpg01">
+                    <span>E:\Study\Frameworks\Selenium\com.fwbpg01\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com_fwbpg01">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com_fwbpg01">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com_fwbpg01">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com_fwbpg01">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com_fwbpg01">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com_fwbpg01">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com_fwbpg01" class="hide-methods passed suite-com_fwbpg01"> (hide)</a> <!-- hide-methods passed suite-com_fwbpg01 -->
+                      <a href="#" panel-name="suite-com_fwbpg01" class="show-methods passed suite-com_fwbpg01"> (show)</a> <!-- show-methods passed suite-com_fwbpg01 -->
+                    </span>
+                    <div class="method-list-content passed suite-com_fwbpg01">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition001.test001" hash-for-method="Test001A">Test001A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition001.test001" hash-for-method="Test001B">Test001B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition001.test002" hash-for-method="Test002A">Test002A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition001.test002" hash-for-method="Test002B">Test002B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition002.test101" hash-for-method="Test101A">Test101A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition002.test101" hash-for-method="Test101B">Test101B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition002.test102" hash-for-method="Test102A">Test102A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_fwbpg01" title="com.fwbpg01.testCondition002.test102" hash-for-method="Test102B">Test102B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com_fwbpg01 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com_fwbpg01" class="panel com_fwbpg01">
+          <div class="suite-com_fwbpg01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fwbpg01.testCondition001.test001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001A">
+                  </a> <!-- Test001A -->
+                  <span class="method-name">Test001A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001B">
+                  </a> <!-- Test001B -->
+                  <span class="method-name">Test001B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com_fwbpg01-class-passed -->
+          <div class="suite-com_fwbpg01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fwbpg01.testCondition002.test101</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test101A">
+                  </a> <!-- Test101A -->
+                  <span class="method-name">Test101A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test101B">
+                  </a> <!-- Test101B -->
+                  <span class="method-name">Test101B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com_fwbpg01-class-passed -->
+          <div class="suite-com_fwbpg01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fwbpg01.testCondition001.test002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002A">
+                  </a> <!-- Test002A -->
+                  <span class="method-name">Test002A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002B">
+                  </a> <!-- Test002B -->
+                  <span class="method-name">Test002B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com_fwbpg01-class-passed -->
+          <div class="suite-com_fwbpg01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.fwbpg01.testCondition002.test102</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test102A">
+                  </a> <!-- Test102A -->
+                  <span class="method-name">Test102A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test102B">
+                  </a> <!-- Test102B -->
+                  <span class="method-name">Test102B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com_fwbpg01-class-passed -->
+        </div> <!-- panel com_fwbpg01 -->
+        <div panel-name="test-xml-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Study\Frameworks\Selenium\com.fwbpg01\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;com.fwbpg01&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentListerners.ExtentListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TestCondition001&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fwbpg01.testCondition001.test001&quot;/&gt;
+      &lt;class name=&quot;com.fwbpg01.testCondition001.test002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCondition001 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TestCondition002&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.fwbpg01.testCondition002.test101&quot;/&gt;
+      &lt;class name=&quot;com.fwbpg01.testCondition002.test102&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCondition002 --&gt;
+&lt;/suite&gt; &lt;!-- com.fwbpg01 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.fwbpg01</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestCondition001 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCondition002 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.fwbpg01</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.fwbpg01</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com_fwbpg01');
+function tableData_com_fwbpg01() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test101A')
+data.setCell(0, 2, 'com.fwbpg01.testCondition002.test101')
+data.setCell(0, 3, 9);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test001A')
+data.setCell(1, 2, 'com.fwbpg01.testCondition001.test001')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test102A')
+data.setCell(2, 2, 'com.fwbpg01.testCondition002.test102')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test101B')
+data.setCell(3, 2, 'com.fwbpg01.testCondition002.test101')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test002A')
+data.setCell(4, 2, 'com.fwbpg01.testCondition001.test002')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test002B')
+data.setCell(5, 2, 'com.fwbpg01.testCondition001.test002')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test001B')
+data.setCell(6, 2, 'com.fwbpg01.testCondition001.test001')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test102B')
+data.setCell(7, 2, 'com.fwbpg01.testCondition002.test102')
+data.setCell(7, 3, 0);
+window.suiteTableData['com_fwbpg01']= { tableData: data, tableDiv: 'times-div-com_fwbpg01'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 180 ms</span>
+              <div id="times-div-com_fwbpg01">
+              </div> <!-- times-div-com_fwbpg01 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.fwbpg01</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com_fwbpg01" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test001</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test101</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test002</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test102</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test001A</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test101</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test101A</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test001B</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test101</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test101B</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test002A</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test102</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test102A</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test002B</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test102</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test102B</span>
+                <span class="method-start">159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test001</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test101</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition002.test102</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.fwbpg01.testCondition001.test002</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

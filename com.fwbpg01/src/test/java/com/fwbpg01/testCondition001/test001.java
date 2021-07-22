@@ -33,9 +33,5 @@ public class test001 {
 		
 	}
 
-	@Test
-	public void Test001C() {
-		System.out.println("Test001B is running");
-		
-	}
+	
 }

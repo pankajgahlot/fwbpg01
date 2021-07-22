@@ -21,7 +21,7 @@ public class ExtentListner implements ITestListener {
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
 	private static ExtentReports extentrep = ExtentManager
-			.extentReport(System.getProperty("user.dir") + "\\target\\reports\\" + fileName);
+			.extentReport(System.getProperty("user.dir") + "\\ExtentReports\\reports\\" + fileName);
 
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
 

@@ -1,0 +1,32 @@
+package base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import pageobjects.LoginPage;
+
+public class SuiteBase {
+	
+	public  LoginPage LPg = new LoginPage();
+	
+	InheritableThreadLocal<WebDriver> driver = new InheritableThreadLocal<WebDriver>();
+	
+	public WebDriver getDriver() {
+		return driver.get();
+	}
+
+	public void loadBrowser() {
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "\\src\\test\\resources\\driver\\chromedriver.exe");
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--start-maximized");
+		options.addArguments("--ignore-certificate-errors");
+		
+		driver.set(new  ChromeDriver(options));
+		
+		
+	}
+
+}
