@@ -13,7 +13,7 @@ import pageobjects.LoginPage;
 
 public class SuiteBase {
 	
-	public  LoginPage LPg = new LoginPage();
+	public  LoginPage LPg = new LoginPage( );
 	public Properties prop;	
 	InheritableThreadLocal<WebDriver> driver = new InheritableThreadLocal<WebDriver>();
 	

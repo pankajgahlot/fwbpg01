@@ -5,6 +5,8 @@ public interface filterpage {
 	String FILTER_HEADER = "//span[text()='Filters']";
 	String F_ASSURED_CHECKBOX = "//div[@class='_24_Dny _3tCU7L']";
 	String BRAND_CHECKBOX = "//div[@class='_24_Dny']//following-sibling::div[text()='SAMSUNG']";
+	String RAM_HEADER="//div[text()='RAM']";
+	String SORT_ICON="//div[text()='Price -- Low to High']";
 
 	
 	

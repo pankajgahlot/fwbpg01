@@ -3,21 +3,11 @@
 
 
 <suite name="Suite" parallel="tests">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="FlipkartTest">
     <classes>
       <class name="com.flipkart.check.flipkartTEST01"/>
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Test1">
-    <classes>
-      <class name="com.flipkart.check.flipkartTEST02"/>
-    </classes>
-  </test> <!-- Test -->
   
-  <test thread-count="5" name="Test2">
-    <classes>
-      <class name="com.flipkart.check.flipkartTEST03"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->

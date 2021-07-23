@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92620" started-at="2021-07-23T18:23:11 IST" finished-at="2021-07-23T18:24:44 IST">
+    <groups>
+    </groups>
+    <test name="FlipkartTest" duration-ms="92620" started-at="2021-07-23T18:23:11 IST" finished-at="2021-07-23T18:24:44 IST">
+      <class name="com.flipkart.check.flipkartTEST01">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.check.flipkartTEST01@1f7030a6]" name="setup" is-config="true" duration-ms="47" started-at="2021-07-23T18:23:11 IST" finished-at="2021-07-23T18:23:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkMobileName()[pri:0, instance:com.flipkart.check.flipkartTEST01@1f7030a6]" name="checkMobileName" duration-ms="90794" started-at="2021-07-23T18:23:11 IST" finished-at="2021-07-23T18:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMobileName -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.flipkart.check.flipkartTEST01@1f7030a6]" name="AfterMethod" is-config="true" duration-ms="1639" started-at="2021-07-23T18:24:42 IST" finished-at="2021-07-23T18:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- com.flipkart.check.flipkartTEST01 -->
+    </test> <!-- FlipkartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
